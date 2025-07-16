@@ -810,7 +810,7 @@ async function loadTestimonios() {
     const snapshot = await getDocs(q);
 
     if (snapshot.empty) {
-      testimoniosList.innerHTML = '<p style="color: white; text-align: center;">No hay testimonios aún.</p>';
+      testimoniosList.innerHTML = '<p style="color: black; text-align: center;">No hay testimonios aún.</p>';
       return;
     }
 
