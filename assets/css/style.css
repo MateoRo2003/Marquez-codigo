@@ -235,7 +235,7 @@ body { background: var(--white); }
 
 .header-top .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr) ;
   justify-items: flex-start;
   align-items: center;
 }
@@ -942,7 +942,9 @@ body { background: var(--white); }
 .go-top:is(:hover, :focus) { opacity: 1; }
 
 
-
+.h2-titulo{
+font-size: 18px ;
+}
 
 
 /*-----------------------------------*\
@@ -959,7 +961,9 @@ body { background: var(--white); }
    * REUSED STYLE
    */
 
-
+.h2-titulo{
+  font-size: 25px ;
+}
   .container {
     max-width: 580px;
     margin-inline: auto;
@@ -980,7 +984,7 @@ body { background: var(--white); }
 
 .header-top .container {
 
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) ;
 
 
   }
