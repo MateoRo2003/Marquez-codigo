@@ -1085,7 +1085,7 @@ font-size: 18px ;
  * responsive for larger than 768px screen
  */
 
-@media (min-width: 768px) {
+@media (min-width: 585px) {
 
   /**
    * CUSTOM PROPERTY
@@ -1101,6 +1101,10 @@ font-size: 18px ;
 
   }
 
+
+    .header-top .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 
   /**
@@ -1243,7 +1247,9 @@ font-size: 18px ;
    */
 
   .container { max-width: 1050px; }
-
+    .header-top .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 
   /**
